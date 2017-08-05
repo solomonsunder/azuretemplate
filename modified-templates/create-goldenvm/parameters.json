@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus2"
+        },
+        "virtualMachineName": {
+            "value": "gold-04AUG17"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS14_v2"
+        },
+        "adminUsername": {
+            "value": "TCC"
+        },
+        "virtualNetworkName": {
+            "value": "AzureGold-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "gold-04aug17-NIC"
+        },
+        "networkSecurityGroupName": {
+            "value": "Win2012R2Gold-nsg"
+        },
+        "adminPassword": {
+            "value": "AzureGold@123"
+        },
+        "storageAccountName": {
+            "value": "azuregold"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "azuregolddiagnostics"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/7623f4f7-4a0f-4fda-9027-2cdab5ddebdf/resourceGroups/azuregold/providers/Microsoft.Storage/storageAccounts/azuregolddiagnostics"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "publicIpAddressName": {
+            "value": "gold-04AUG17-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        }
+    }
+}
