@@ -24,7 +24,7 @@
             "value": "Win2012R2Gold-nsg"
         },
         "adminPassword": {
-            "value": "AzureGold@123"
+            "value": "null"
         },
         "storageAccountName": {
             "value": "azuregold"
